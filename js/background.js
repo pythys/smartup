@@ -3811,10 +3811,10 @@ var sub={
 						chrome.tabs.executeScript({file:"js/md5.js",runAt:"document_start"});
 					}
 
-					// insert sortable.min.js
+					// insert Sortable.min.js
 					let arraySort=["homepage","appslist","jslist","extmgm"];
 					if(arraySort.contains(message.apptype)){
-						chrome.tabs.executeScript({file:"vendor/sortable.min.js",runAt:"document_start"},function(){
+						chrome.tabs.executeScript({file:"vendor/Sortable.min.js",runAt:"document_start"},function(){
 							chrome.tabs.insertCSS({file:"css/inject/"+message.apptype+".css",runAt:"document_start"},function(){});
 							chrome.tabs.executeScript({file:"js/inject/"+message.apptype+".js",runAt:"document_start"},function(){
 								//after insert js, run sue.apps.homepage.itemCTM() for miniapps-homepage
