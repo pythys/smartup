@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      sortablejs:
+        specifier: 1.10.2
+        version: 1.10.2
+
+packages:
+
+  sortablejs@1.10.2:
+    resolution: {integrity: sha512-YkPGufevysvfwn5rfdlGyrGjt7/CRHwvRPogD/lC+TnvcN29jDpCifKP+rBqf+LRldfXSTh+0CGLcSg0VIxq3A==}
+
+snapshots:
+
+  sortablejs@1.10.2: {}
