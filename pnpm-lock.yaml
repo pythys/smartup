@@ -8,15 +8,23 @@ importers:
 
   .:
     dependencies:
+      js-base64:
+        specifier: 3.7.2
+        version: 3.7.2
       sortablejs:
         specifier: 1.10.2
         version: 1.10.2
 
 packages:
 
+  js-base64@3.7.2:
+    resolution: {integrity: sha512-NnRs6dsyqUXejqk/yv2aiXlAvOs56sLkX6nUdeaNezI5LFFLlsZjOThmwnrcwh5ZZRwZlCMnVAY3CvhIhoVEKQ==}
+
   sortablejs@1.10.2:
     resolution: {integrity: sha512-YkPGufevysvfwn5rfdlGyrGjt7/CRHwvRPogD/lC+TnvcN29jDpCifKP+rBqf+LRldfXSTh+0CGLcSg0VIxq3A==}
 
 snapshots:
+
+  js-base64@3.7.2: {}
 
   sortablejs@1.10.2: {}

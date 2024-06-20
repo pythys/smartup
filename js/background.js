@@ -3801,7 +3801,7 @@ var sub={
 						return;
 					}
 					if(message.apptype=="base64"){
-						chrome.tabs.executeScript({file:"js/base64.js",runAt:"document_start"},function(){})
+						chrome.tabs.executeScript({file:"vendor/base64.js",runAt:"document_start"},function(){})
 					}else if(message.apptype=="qr"||message.apptype=="magnet"||message.apptype=="shorturl"){
 						chrome.tabs.executeScript({file:"js/qrcode.js",runAt:"document_start"},function(){})
 					}else if(message.apptype=="tbkjx"){
