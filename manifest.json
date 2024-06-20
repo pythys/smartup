@@ -13,7 +13,7 @@
 		"128": "icon.png"
 	},
 	"background": {
-		"scripts": ["js/purify.js","js/gbk.js","js/background.js"],
+		"scripts": ["js/purify.js","vendor/gbk.min.js","js/background.js"],
 		"persistent": true
 	},
 	"content_scripts": [

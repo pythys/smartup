@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const filesToCopy = [
+  { src: 'node_modules/gbk.js/dist/gbk.min.js', dest: 'vendor/gbk.min.js' },
   { src: 'node_modules/js-base64/base64.js', dest: 'vendor/base64.js' },
   { src: 'node_modules/sortablejs/Sortable.min.js', dest: 'vendor/Sortable.min.js' },
 ];

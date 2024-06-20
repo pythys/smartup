@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      gbk.js:
+        specifier: github:cnwhy/GBK.js#v0.2.3
+        version: https://codeload.github.com/cnwhy/GBK.js/tar.gz/362ada0366435917f33b2874689577dd4a0f787b
       js-base64:
         specifier: 3.7.2
         version: 3.7.2
@@ -17,6 +20,10 @@ importers:
 
 packages:
 
+  gbk.js@https://codeload.github.com/cnwhy/GBK.js/tar.gz/362ada0366435917f33b2874689577dd4a0f787b:
+    resolution: {tarball: https://codeload.github.com/cnwhy/GBK.js/tar.gz/362ada0366435917f33b2874689577dd4a0f787b}
+    version: 0.2.3
+
   js-base64@3.7.2:
     resolution: {integrity: sha512-NnRs6dsyqUXejqk/yv2aiXlAvOs56sLkX6nUdeaNezI5LFFLlsZjOThmwnrcwh5ZZRwZlCMnVAY3CvhIhoVEKQ==}
 
@@ -24,6 +31,8 @@ packages:
     resolution: {integrity: sha512-YkPGufevysvfwn5rfdlGyrGjt7/CRHwvRPogD/lC+TnvcN29jDpCifKP+rBqf+LRldfXSTh+0CGLcSg0VIxq3A==}
 
 snapshots:
+
+  gbk.js@https://codeload.github.com/cnwhy/GBK.js/tar.gz/362ada0366435917f33b2874689577dd4a0f787b: {}
 
   js-base64@3.7.2: {}
 
