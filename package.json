@@ -17,6 +17,7 @@
   "author": "Taher Alkhateeb",
   "license": "ISC",
   "dependencies": {
+    "blueimp-md5": "^2.19.0",
     "gbk.js": "github:cnwhy/GBK.js#v0.2.3",
     "js-base64": "3.7.2",
     "sortablejs": "1.10.2"

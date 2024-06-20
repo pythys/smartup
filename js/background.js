@@ -3808,7 +3808,7 @@ var sub={
 						chrome.tabs.executeScript({file:"js/purify.js",runAt:"document_start"},function(){});
 						chrome.tabs.executeScript({file:"js/qrcode.js",runAt:"document_start"},function(){});
 					}else if(message.apptype=="notepad"){
-						chrome.tabs.executeScript({file:"js/md5.js",runAt:"document_start"});
+						chrome.tabs.executeScript({file:"vendor/md5.min.js",runAt:"document_start"});
 					}
 
 					// insert Sortable.min.js

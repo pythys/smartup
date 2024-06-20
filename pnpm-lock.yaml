@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      blueimp-md5:
+        specifier: ^2.19.0
+        version: 2.19.0
       gbk.js:
         specifier: github:cnwhy/GBK.js#v0.2.3
         version: https://codeload.github.com/cnwhy/GBK.js/tar.gz/362ada0366435917f33b2874689577dd4a0f787b
@@ -20,6 +23,9 @@ importers:
 
 packages:
 
+  blueimp-md5@2.19.0:
+    resolution: {integrity: sha512-DRQrD6gJyy8FbiE4s+bDoXS9hiW3Vbx5uCdwvcCf3zLHL+Iv7LtGHLpr+GZV8rHG8tK766FGYBwRbu8pELTt+w==}
+
   gbk.js@https://codeload.github.com/cnwhy/GBK.js/tar.gz/362ada0366435917f33b2874689577dd4a0f787b:
     resolution: {tarball: https://codeload.github.com/cnwhy/GBK.js/tar.gz/362ada0366435917f33b2874689577dd4a0f787b}
     version: 0.2.3
@@ -31,6 +37,8 @@ packages:
     resolution: {integrity: sha512-YkPGufevysvfwn5rfdlGyrGjt7/CRHwvRPogD/lC+TnvcN29jDpCifKP+rBqf+LRldfXSTh+0CGLcSg0VIxq3A==}
 
 snapshots:
+
+  blueimp-md5@2.19.0: {}
 
   gbk.js@https://codeload.github.com/cnwhy/GBK.js/tar.gz/362ada0366435917f33b2874689577dd4a0f787b: {}
 
