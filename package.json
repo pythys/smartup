@@ -1,14 +1,20 @@
 {
   "name": "smartup",
   "version": "1.0.0",
-  "description": "",
+  "description": "A customizable web browser mouse gestures extension",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "mkdir -p vendor && cp node_modules/sortablejs/Sortable.min.js vendor/"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "mouse",
+    "gestures",
+    "chrome",
+    "firefox",
+    "browser"
+  ],
+  "author": "Taher Alkhateeb",
   "license": "ISC",
   "dependencies": {
     "sortablejs": "1.10.2"
