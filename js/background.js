@@ -3805,7 +3805,7 @@ var sub={
 					}else if(message.apptype=="qr"||message.apptype=="magnet"||message.apptype=="shorturl"){
 						chrome.tabs.executeScript({file:"js/qrcode.js",runAt:"document_start"},function(){})
 					}else if(message.apptype=="tbkjx"){
-						chrome.tabs.executeScript({file:"js/purify.js",runAt:"document_start"},function(){});
+						chrome.tabs.executeScript({file:"vendor/purify.min.js",runAt:"document_start"},function(){});
 						chrome.tabs.executeScript({file:"js/qrcode.js",runAt:"document_start"},function(){});
 					}else if(message.apptype=="notepad"){
 						chrome.tabs.executeScript({file:"vendor/md5.min.js",runAt:"document_start"});
