@@ -20,6 +20,7 @@
     "blueimp-md5": "^2.19.0",
     "dompurify": "2.2.6",
     "gbk.js": "github:cnwhy/GBK.js#v0.2.3",
+    "jquery-qrcode": "github:jeromeetienne/jquery-qrcode",
     "js-base64": "3.7.2",
     "sortablejs": "1.10.2"
   }

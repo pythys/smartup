@@ -5,6 +5,7 @@ const filesToCopy = [
   { src: 'node_modules/blueimp-md5/js/md5.min.js', dest: 'vendor/md5.min.js' },
   { src: 'node_modules/dompurify/dist/purify.min.js', dest: 'vendor/purify.min.js' },
   { src: 'node_modules/gbk.js/dist/gbk.min.js', dest: 'vendor/gbk.min.js' },
+  { src: 'node_modules/jquery-qrcode/jquery.qrcode.min.js', dest: 'vendor/jquery.qrcode.min.js' },
   { src: 'node_modules/js-base64/base64.js', dest: 'vendor/base64.js' },
   { src: 'node_modules/sortablejs/Sortable.min.js', dest: 'vendor/Sortable.min.js' },
 ];

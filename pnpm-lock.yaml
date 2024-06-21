@@ -17,6 +17,9 @@ importers:
       gbk.js:
         specifier: github:cnwhy/GBK.js#v0.2.3
         version: https://codeload.github.com/cnwhy/GBK.js/tar.gz/362ada0366435917f33b2874689577dd4a0f787b
+      jquery-qrcode:
+        specifier: github:jeromeetienne/jquery-qrcode
+        version: https://codeload.github.com/jeromeetienne/jquery-qrcode/tar.gz/6c0bdd8c4ac835e0553437365d6cc0e60c11cba3
       js-base64:
         specifier: 3.7.2
         version: 3.7.2
@@ -36,6 +39,10 @@ packages:
     resolution: {tarball: https://codeload.github.com/cnwhy/GBK.js/tar.gz/362ada0366435917f33b2874689577dd4a0f787b}
     version: 0.2.3
 
+  jquery-qrcode@https://codeload.github.com/jeromeetienne/jquery-qrcode/tar.gz/6c0bdd8c4ac835e0553437365d6cc0e60c11cba3:
+    resolution: {tarball: https://codeload.github.com/jeromeetienne/jquery-qrcode/tar.gz/6c0bdd8c4ac835e0553437365d6cc0e60c11cba3}
+    version: 0.0.0
+
   js-base64@3.7.2:
     resolution: {integrity: sha512-NnRs6dsyqUXejqk/yv2aiXlAvOs56sLkX6nUdeaNezI5LFFLlsZjOThmwnrcwh5ZZRwZlCMnVAY3CvhIhoVEKQ==}
 
@@ -49,6 +56,8 @@ snapshots:
   dompurify@2.2.6: {}
 
   gbk.js@https://codeload.github.com/cnwhy/GBK.js/tar.gz/362ada0366435917f33b2874689577dd4a0f787b: {}
+
+  jquery-qrcode@https://codeload.github.com/jeromeetienne/jquery-qrcode/tar.gz/6c0bdd8c4ac835e0553437365d6cc0e60c11cba3: {}
 
   js-base64@3.7.2: {}
 
