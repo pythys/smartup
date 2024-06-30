@@ -12,7 +12,8 @@
     "gestures",
     "chrome",
     "firefox",
-    "browser"
+    "browser",
+    "extention"
   ],
   "author": "Taher Alkhateeb",
   "license": "ISC",
